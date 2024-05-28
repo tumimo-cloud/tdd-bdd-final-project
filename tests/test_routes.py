@@ -79,7 +79,7 @@ class TestProductRoutes(TestCase):
     ############################################################
     # Utility function to bulk create products
     ############################################################
-    def _create_products(self, count: int = 1) -> list:
+    def test_create_products(self, count: int = 1) -> list:
         """Factory method to create products in bulk"""
         products = []
         for _ in range(count):
